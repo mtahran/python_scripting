@@ -1,33 +1,33 @@
-# name = input("What is your Name: ")
-# print(f"Hello {name}")
-# age = input("What is your age: ")
-# print(f"You look much younger!!!")
-# job = input("What is your job: ")
-# if job in ['doctor','engineer','businessman','economist']:
-#     print(f"Wow! Good For You!")
-# else:
-#     print(f"Sorry for you :( You should find a better job!")
+name = input("What is your Name: ")
+print(f"Hello {name}")
+age = input("What is your age: ")
+print(f"You look much younger!!!")
+job = input("What is your job: ")
+if job in ['doctor','engineer','businessman','economist']:
+    print(f"Wow! Good For You!")
+else:
+    print(f"Sorry for you :( You should find a better job!")
 
-    #Also works this way:
+    Also works this way:
 
-# pets = []
-# name = input("What is your Name: ")
-# age = input(f"Hello {name} What is your age: ")
-# job = input(f"You look much younger!!! What is your job: ")
-# if job in ['doctor','engineer','businessman','economist']:
-#     print(f"Wow! Good For You!")
-# else:
-#     print(f"Sorry for you :( You should find a better job!")
+pets = []
+name = input("What is your Name: ")
+age = input(f"Hello {name} What is your age: ")
+job = input(f"You look much younger!!! What is your job: ")
+if job in ['doctor','engineer','businessman','economist']:
+    print(f"Wow! Good For You!")
+else:
+    print(f"Sorry for you :( You should find a better job!")
 
-# pet = input("Do you have any pets: Y or N")
-# pet_name = input("What is its name: ")
-# if pet in ['y', 'Y', 'yes', 'yep', 'for sure', 'totally']:
-#     pets.append(pet_name)
-#     print(f"{name} has a pet named {pet_name}!")
-# else:
-#     print(f"{name} doesn't have a pet 🙁")
+pet = input("Do you have any pets: Y or N")
+pet_name = input("What is its name: ")
+if pet in ['y', 'Y', 'yes', 'yep', 'for sure', 'totally']:
+    pets.append(pet_name)
+    print(f"{name} has a pet named {pet_name}!")
+else:
+    print(f"{name} doesn't have a pet.")
 
-# print(pets)
+print(pets)
 
 
 
