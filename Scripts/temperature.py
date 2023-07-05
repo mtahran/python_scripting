@@ -1,3 +1,4 @@
+# Converts temperature in C to F, F to C.
 temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
 degree = int(temp[:-1])
 i_convention = temp[-1]
@@ -11,4 +12,8 @@ elif i_convention.upper() == "F":
 else:
   print("Input proper convention.")
   quit()
+
+print()
 print("The temperature in", o_convention, "is", result, "degrees.")
+print()
+print(temp,"=",result,o_convention[0])
